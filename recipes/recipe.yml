@@ -58,8 +58,8 @@ modules:
       - distrobox
       - pass
       - fzf
-      - ncmpcpp
-      - mpd
+      # - ncmpcpp
+      # - mpd
       - feh
       - hyprshot
       - hyprlock
