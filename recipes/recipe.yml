@@ -30,6 +30,7 @@ modules:
       - iptsd
       - libwacom-surface
       - libwacom-surface-data
+      - surface-secureboot
     remove:
       - kernel
       - kernel-core
