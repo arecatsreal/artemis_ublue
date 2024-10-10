@@ -19,6 +19,8 @@ modules:
     repos:
       - https://pkg.surfacelinux.com/fedora/linux-surface.repo
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
+      - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-40/solopasha-hyprland-fedora-40.repo
+      - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-40/tofik-nwg-shell-fedora-40.repo
     install:
       # Packages For Surface
       - fprintd
@@ -53,6 +55,17 @@ modules:
       - speedcrunch
       - bemenu
       - fastfetch
+      - distrobox
+      - pass
+      - fzf
+      - ncmpcpp
+      - mpd
+      - hyprshot
+      - hyprlock
+      - swww
+      - nwg-dock
+      - nwg-displays
+      - nwg-look
 
       # Fonts
       - google-noto-sans-cjk-fonts
@@ -68,6 +81,7 @@ modules:
       - libwacom-data
       - firefox
       - firefox-langpacks
+      - feh
   # Systemd
   - type: systemd
     system:
@@ -92,9 +106,11 @@ modules:
         - rocks.koreader.KOReader
         - com.discordapp.Discord
         - com.spotify.Client
+        - io.github.hrkfdn.ncspot
         - io.github.zen_browser.zen
         - io.freetubeapp.FreeTube
         - com.moonlight_stream.Moonlight
+        - org.kde.falkon
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
