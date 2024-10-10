@@ -53,6 +53,11 @@ modules:
       - speedcrunch
       - bemenu
       - fastfetch
+
+      # Fonts
+      - google-noto-sans-cjk-fonts
+      - google-noto-emoji-fonts
+      - google-noto-color-emoji-fonts
     remove:
       - kernel
       - kernel-core
@@ -62,6 +67,7 @@ modules:
       - libwacom
       - libwacom-data
       - firefox
+      - firefox-langpacks
   # Systemd
   - type: systemd
     system:
