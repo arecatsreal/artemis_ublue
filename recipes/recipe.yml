@@ -60,6 +60,7 @@ modules:
       - fzf
       - ncmpcpp
       - mpd
+      - feh
       - hyprshot
       - hyprlock
       - swww
@@ -81,7 +82,6 @@ modules:
       - libwacom-data
       - firefox
       - firefox-langpacks
-      - feh
   # Systemd
   - type: systemd
     system:
