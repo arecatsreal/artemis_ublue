@@ -70,6 +70,7 @@ modules:
       - nwg-look
       - NetworkManager-tui
       - xremap-wlroots
+      - doas
 
       # Fonts
       - google-noto-sans-cjk-fonts
@@ -90,6 +91,7 @@ modules:
     system:
       enabled:
         - surface-hardware-setup.service
+        - xremap.service
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)

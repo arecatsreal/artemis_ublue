@@ -1,0 +1,9 @@
+[Unit]
+Description=Xremap
+After=sddm-boot.service
+
+[Service]
+ExecStart=/usr/bin/xremap /usr/etc/xremap.yml
+
+[Install]
+WantedBy=multi-user.target
