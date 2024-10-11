@@ -67,6 +67,7 @@ modules:
       - nwg-dock
       - nwg-displays
       - nwg-look
+      - NetworkManager-tui
 
       # Fonts
       - google-noto-sans-cjk-fonts
