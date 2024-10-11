@@ -71,6 +71,8 @@ modules:
       - NetworkManager-tui
       - xremap-wlroots
       - doas
+      - neovim
+      - npm
 
       # Fonts
       - google-noto-sans-cjk-fonts
@@ -104,7 +106,6 @@ modules:
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
-        - io.neovim.nvim
         - com.github.tchx84.Flatseal
         - org.gimp.GIMP
         - org.kde.krita
