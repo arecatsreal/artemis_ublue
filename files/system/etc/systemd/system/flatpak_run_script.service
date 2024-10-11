@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatically creates run scrips for flatpak apps.
+After=sddm-boot.service
+
+[Service]
+ExecStart=flatpak_run_script_generate.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatically creates run scrips for flatpak apps.
+
+[Timer]
+OnBootSec=10s
+OnUnitActiveSec=12h
+
+[Install]
+WantedBy=timers.target
