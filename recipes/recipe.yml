@@ -94,6 +94,7 @@ modules:
       enabled:
         - surface-hardware-setup.service
         - xremap.service
+        - flatpak_run_script.timer
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
