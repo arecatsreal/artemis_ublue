@@ -72,7 +72,9 @@ modules:
       - xremap-wlroots
       - doas
       - neovim
+      - luarocks
       - npm
+      - hypridle
 
       # Fonts
       - google-noto-sans-cjk-fonts
