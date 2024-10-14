@@ -1,25 +1,25 @@
 modmap:
-  - name: Colemak_DH_Ortho
+  - name: Surface Remap
     remap:
-      e: f
-      r: p
-      t: b
-      y: j
-      u: l
-      i: u
-      o: y
-      p: semicolon
-      s: r
-      d: s
-      f: t
-      h: m
-      j: n
-      k: e
-      l: i
-      KEY_SEMICOLON: o
-      v: d
-      b: v
-      n: k
-      m: h
+      # e: f
+      # r: p
+      # t: b
+      # y: j
+      # u: l
+      # i: u
+      # o: y
+      # p: semicolon
+      # s: r
+      # d: s
+      # f: t
+      # h: m
+      # j: n
+      # k: e
+      # l: i
+      # KEY_SEMICOLON: o
+      # v: d
+      # b: v
+      # n: k
+      # m: h
       CapsLock: Esc
       Esc: CapsLock
