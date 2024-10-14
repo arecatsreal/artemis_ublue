@@ -22,6 +22,7 @@ modules:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - https://copr.fedorainfracloud.org/coprs/blakegardner/xremap/repo/fedora-40/blakegardner-xremap-fedora-40.repo
       - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-40/tofik-nwg-shell-fedora-40.repo
+      - https://copr.fedorainfracloud.org/coprs/elxreno/libinput-gestures/repo/fedora-40/elxreno-libinput-gestures-fedora-40.repo
     install:
       # Packages For Surface
       # - fprintd
@@ -73,6 +74,8 @@ modules:
       - nwg-dock
       - gamemode
       - pinentry-qt
+      - libinput-gestures
+      - power-profiles-daemon
 
       # Fonts
       - google-noto-sans-cjk-fonts
