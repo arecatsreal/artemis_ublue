@@ -71,6 +71,7 @@ modules:
       - npm
       - squeekboard
       - waydroid
+      - polkit-qt
       - nwg-dock
       - gamemode
       - pinentry-qt
