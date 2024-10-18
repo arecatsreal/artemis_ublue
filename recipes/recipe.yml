@@ -78,6 +78,8 @@ modules:
       - lisgd
       - power-profiles-daemon
 
+      - android-file-transfer
+
       # Fonts
       - google-noto-sans-cjk-fonts
       - google-noto-emoji-fonts
@@ -122,6 +124,7 @@ modules:
         - io.freetubeapp.FreeTube
         - com.moonlight_stream.Moonlight
         - org.kde.falkon
+        - org.kde.okular
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
