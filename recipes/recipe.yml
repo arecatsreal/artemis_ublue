@@ -79,6 +79,7 @@ modules:
       - power-profiles-daemon
 
       - android-file-transfer
+      - android-tools
 
       # Fonts
       - google-noto-sans-cjk-fonts
