@@ -23,6 +23,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/blakegardner/xremap/repo/fedora-40/blakegardner-xremap-fedora-40.repo
       - https://copr.fedorainfracloud.org/coprs/tofik/nwg-shell/repo/fedora-40/tofik-nwg-shell-fedora-40.repo
       - https://copr.fedorainfracloud.org/coprs/porras/lisgd/repo/fedora-40/porras-lisgd-fedora-40.repo
+      - https://copr.fedorainfracloud.org/coprs/zeno/scrcpy/repo/fedora-40/zeno-scrcpy-fedora-40.repo
     install:
       # Packages For Surface
       # - fprintd
@@ -80,6 +81,7 @@ modules:
 
       - android-file-transfer
       - android-tools
+      - scrcpy
 
       # Fonts
       - google-noto-sans-cjk-fonts
@@ -126,6 +128,7 @@ modules:
         - com.moonlight_stream.Moonlight
         - org.kde.falkon
         - org.kde.okular
+        - com.github.xournalpp.xournalpp
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
